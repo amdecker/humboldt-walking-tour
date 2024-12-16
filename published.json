@@ -36,11 +36,11 @@
                 "media": {
                     "caption": "",
                     "credit": "",
-                    "url": "https://amdecker.github.io/humboldt-walking-tour/avh-statue.jpeg"
+                    "url": "//uploads.knightlab.com/storymapjs/d6ef802989fc118707a2910d56279aba/ah162-alexander-von-humboldt-walking-tour/_images/avh-statue.jpeg"
                 },
                 "text": {
                     "headline": "Stop 1: Statue of Alexander von Humboldt",
-                    "text": "<center><video height=40 width=300 controls><source src='/humboldt-walking-tour/_assets/Stop 1.m4a' type='audio/mp4'></video><br><img height='250'src='/humboldt-walking-tour/_assets/globe.jpg'/></center>"
+                    "text": "<center><video height=40 width=300 controls><source src='humboldt-walking-tour/assets/Stop 1.m4a' type='audio/mp4'></video><br><img height='250'src='humboldt-walking-tour/assets/globe.jpg'/></center>"
                 }
             },
             {
