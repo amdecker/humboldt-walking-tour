@@ -126,10 +126,7 @@ html, body {
 
         // add a polyline when the storymap is loaded.
         // https://github.com/NUKnightLab/StoryMapJS/issues/412
-        storymap.on("loaded", function(event) {
         L.polyline(data.route, {color: 'red', weight: 3, dashArray : '3,6'}).addTo(storymap.map);
-            console.log("adding polyline")
-        }, storymap);
     }
 
     (function() {
