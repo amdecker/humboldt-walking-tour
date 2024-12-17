@@ -17,7 +17,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="shortcut icon" href="//cdn.knightlab.com/libs/blueline/latest/assets/logos/favicon.ico">
 <link rel="stylesheet" href="//cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css">
-<link rel="alternate" type="application/json+oembed" href="https://oembed.knightlab.com/storymap/?url=https%3A//uploads.knightlab.com/storymapjs/d6ef802989fc118707a2910d56279aba/ah162-alexander-von-humboldt-walking-tour/index.html">
 <script type="text/javascript" src="//cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
 <style>
 html, body {
@@ -59,7 +58,7 @@ html, body {
     const urlParams = new URLSearchParams(window.location.search);
 
 	function onStoryMapTitle(e) {
-      document.title = "StoryMapJS: " + e.title;
+      document.title = e.title;
 	};
 
     function getScriptPath(scriptname) {
@@ -124,6 +123,13 @@ html, body {
         if(mapType && mapType.match('^zoomify.*')) {
             ga('send', 'event', 'StoryMapJS', 'zoomify', document.referrer)
         }
+
+        // add a polyline when the storymap is loaded.
+        // https://github.com/NUKnightLab/StoryMapJS/issues/412
+        storymap.on("loaded", function(event) {
+        L.polyline(data.route, {color: 'red', weight: 3, dashArray : '3,6'}).addTo(storymap.map);
+            console.log("adding polyline")
+        }, storymap);
     }
 
     (function() {
