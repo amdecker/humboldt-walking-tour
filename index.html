@@ -126,7 +126,19 @@ html, body {
 
         // add a polyline when the storymap is loaded.
         // https://github.com/NUKnightLab/StoryMapJS/issues/412
-        L.polyline(data.route, {color: 'red', weight: 3, dashArray : '3,6'}).addTo(storymap.map);
+        // Track current location
+        L.polyline(data.route).addTo(storymap.map);
+        position_circle = L.circle([0, 0])
+        var layer = L.layerGroup(position_circle);
+        function success(position) {
+            console.log(position)  
+            layer.removeLayer(position_circle);
+            position_circle = L.circle([position.coords.latitude, position.coords.longitude], radius=50, {color:"red"});
+            layer.addLayer(position_circle);
+            layer.addTo(storymap.map);
+        }
+
+        navigator.geolocation.watchPosition(success);
     }
 
     (function() {
