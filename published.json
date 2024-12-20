@@ -139,8 +139,8 @@
                     "url": ""
                 },
                 "text": {
-                    "headline": "Alexander von Humboldt Tour",
-                    "text": ""
+                    "headline": "Humboldt's Life and Memory | A Biking Tour",
+                    "text": "<center><video height=40 width=300 controls><source src='assets/1. Introduction.m4a' type='audio/mp4'></video><br>See more resources and bibliography <a href='https://github.com/amdecker/humboldt-walking-tour'>here</a> "
                 },
                 "type": "overview"
             },
@@ -156,11 +156,11 @@
                 "media": {
                     "caption": "",
                     "credit": "",
-                    "url": "//uploads.knightlab.com/storymapjs/d6ef802989fc118707a2910d56279aba/ah162-alexander-von-humboldt-walking-tour/_images/avh-statue.jpeg"
+                    "url": "assets/avh-statue.jpeg"
                 },
                 "text": {
                     "headline": "Stop 1: Statue of Alexander von Humboldt",
-                    "text": "<center><video height=40 width=300 controls><source src='assets/Stop 1.m4a' type='audio/mp4'></video><br><img height='250'src='assets/globe.jpg'/></center>"
+                    "text": "<center><video height=40 width=300 controls><source src='assets/2. Alexander Von Humboldt Statue.m4a' type='audio/mp4'></video><br><br><img height='250'src='assets/globe.jpg'/></center>"
                 }
             },
             {
@@ -175,11 +175,11 @@
                 "media": {
                     "caption": "",
                     "credit": "",
-                    "url": "//uploads.knightlab.com/storymapjs/d6ef802989fc118707a2910d56279aba/ah162-alexander-von-humboldt-walking-tour/_images/bench.jpeg"
+                    "url": "assets/bench.jpeg"
                 },
                 "text": {
                     "headline": "Stop 2: Park Bench",
-                    "text": ""
+                    "text": "<center><video height=40 width=300 controls><source src='assets/3. Tiergarten.m4a' type='audio/mp4'></video><br><img height='250'src='assets/naturgemalde.jpg'/>Alexander von Humboldt's Naturgemälde, showing the distribution of different species across altitudes and climate zones. https://en.wikipedia.org/w/index.php?title=Alexander_von_Humboldt&oldid=1260534490</center>"
                 }
             },
             {
@@ -198,7 +198,7 @@
                 },
                 "text": {
                     "headline": "Interlude: Excerpt from Views of Nature",
-                    "text": "<center><span>VIEWS OF NATURE:<br>OR CONTEMPLATIONS ON<br>THE SUBLIME PHENOMENA OF CREATION;<br>WITH<br>SCIENTIFIC ILLUSTRATIONS.<br>BY<br>ALEXANDER VON HUMBOLDT.<br>TRANSLATED FROM THE GERMAN<br>BY E. C. OTTE, AND HENRY G. BOHN.<br></span></center><br>INTERLUDE_1_AUDIO"
+                    "text": "<center><span>VIEWS OF NATURE:<br>OR CONTEMPLATIONS ON<br>THE SUBLIME PHENOMENA OF CREATION;<br>WITH<br>SCIENTIFIC ILLUSTRATIONS.<br>BY<br>ALEXANDER VON HUMBOLDT.<br>TRANSLATED FROM THE GERMAN<br>BY E. C. OTTE, AND HENRY G. BOHN.<br></span></center><br><center><video height=40 width=300 controls><source src='assets/interlude.m4a' type='audio/mp4'></video>"
                 }
             },
             {
@@ -213,11 +213,11 @@
                 "media": {
                     "caption": "",
                     "credit": "",
-                    "url": "//uploads.knightlab.com/storymapjs/d6ef802989fc118707a2910d56279aba/ah162-alexander-von-humboldt-walking-tour/_images/king.jpg"
+                    "url": "assets/king.jpg"
                 },
                 "text": {
                     "headline": "Stop 3: Statue of Friedrich Wilhelm III",
-                    "text": "STOP3_AUDIO"
+                    "text": "<center><video height=40 width=300 controls><source src='assets/4. Statue of Friedrich Wilhelm III.m4a' type='audio/mp4'></video><br>"
                 }
             },
             {
@@ -232,11 +232,11 @@
                 "media": {
                     "caption": "",
                     "credit": "",
-                    "url": "//uploads.knightlab.com/storymapjs/d6ef802989fc118707a2910d56279aba/ah162-alexander-von-humboldt-walking-tour/_images/brandenburg.jpg"
+                    "url": "assets/brandenburg.jpg"
                 },
                 "text": {
                     "headline": "Interlude: Brandenburger Tor",
-                    "text": "INTERLUDE_2_AUDIO"
+                    "text": "<center><video height=40 width=300 controls><source src='assets/5. Brandenburger Tor.m4a' type='audio/mp4'></video><br>"
                 }
             },
             {
@@ -251,11 +251,11 @@
                 "media": {
                     "caption": "Map of Berlin, 1769",
                     "credit": "The Berliner, \u201cHistorical Maps of Berlin: From 1600 to 1920,\u201d The Berliner, November 25, 2022, https://www.the-berliner.com/berlin/historical-maps-of-berlin-from-1600-to-1920",
-                    "url": "//uploads.knightlab.com/storymapjs/d6ef802989fc118707a2910d56279aba/ah162-alexander-von-humboldt-walking-tour/_images/map.jpg"
+                    "url": "assets/map.jpg"
                 },
                 "text": {
                     "headline": "Stop 4: Birthplace",
-                    "text": "STOP4_AUDIO"
+                    "text": "<center><video height=40 width=300 controls><source src='assets/6. Birthplace.m4a' type='audio/mp4'></video><br>"
                 }
             },
             {
@@ -268,13 +268,13 @@
                     "zoom": 12
                 },
                 "media": {
-                    "caption": "",
-                    "credit": "",
-                    "url": ""
+                    "caption": "Alexander von Humboldt Statue at Humboldt University",
+                    "credit": "https://en.wikipedia.org/wiki/Humboldt_University_of_Berlin",
+                    "url": "assets/humboldt-uni.jpg"
                 },
                 "text": {
                     "headline": "Stop 5: Humboldt University",
-                    "text": "STOP5_AUDIO"
+                    "text": "<center><video height=40 width=300 controls><source src='assets/7. Humboldt University.m4a' type='audio/mp4'></video><br>"
                 }
             },
             {
@@ -289,11 +289,11 @@
                 "media": {
                     "caption": "The Christmas Market at Humboldt Forum",
                     "credit": "",
-                    "url": "//uploads.knightlab.com/storymapjs/d6ef802989fc118707a2910d56279aba/ah162-alexander-von-humboldt-walking-tour/_images/forum.jpg"
+                    "url": "assets/forum.jpg"
                 },
                 "text": {
                     "headline": "Stop 6: Humboldt Forum",
-                    "text": "STOP6_AUDIO"
+                    "text": "<center><video height=40 width=300 controls><source src='assets/8. Humboldt Forum.m4a' type='audio/mp4'></video><br><img width='100%'src='assets/ngram.png'/>"
                 }
             }
         ],
