@@ -249,13 +249,13 @@
                     "zoom": 12
                 },
                 "media": {
-                    "caption": "Map of Berlin, 1769",
+                    "caption": "Map of Berlin, 1769. Red dot show's Humboldt's birthplace.",
                     "credit": "The Berliner, \u201cHistorical Maps of Berlin: From 1600 to 1920,\u201d The Berliner, November 25, 2022, https://www.the-berliner.com/berlin/historical-maps-of-berlin-from-1600-to-1920",
                     "url": "assets/map.jpg"
                 },
                 "text": {
                     "headline": "Stop 4: Birthplace",
-                    "text": "<center><video height=40 width=300 controls><source src='assets/6. Birthplace.m4a' type='audio/mp4'></video><br>"
+                    "text": "<center><video height=40 width=300 controls><source src='assets/6. Birthplace.m4a' type='audio/mp4'></video><br><img height='250'src='assets/castle.png'/><br>Tegel Castle. https://www.museumsportal-berlin.de/de/museen/humboldt-museum-schloss-tegel/</center>"
                 }
             },
             {
