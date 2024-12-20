@@ -4,8 +4,6 @@ Centered on the life and ideas of Alexander von Humboldt. For AH162 Public and A
 ## Bibliography
 “A Testimony to a Restless Spirit.” Accessed December 14, 2024. https://www.humboldt-foundation.de/en/explore/alexander-von-humboldt/a-testimony-to-a-restless-spirit.
 
-Adams, Douglas. Dirk Gently’s Holistic Detective Agency. New York: Pocket Books, 1991.
-
 “Alexander von Humboldt.” Accessed December 14, 2024. https://www.humboldt-gesellschaft.org/die-gesellschaft/namengeber/alexander-von-humboldt.
 
 “Alexander von Humboldt, Charles Darwin, 1800-2022.” Accessed December 14, 2024. https://books.google.com/ngrams/graph?content=Alexander+von+Humboldt%2CCharles+Darwin&year_start=1800&year_end=2000&corpus=en&smoothing=3&case_insensitive=false.
